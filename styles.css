@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.intro h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.intro h3 {
+    font-size: 1.75rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.why-us h4 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.why-us i {
+    color: #0067a2;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.why-us i:hover {
+    transform: scale(1.2);
+    color: #ff6600; /* Цвет при наведении */
+}
+
+.why-us .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute space between columns */
+}
+
+.why-us .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    flex: 1; /* Ensure equal width columns */
+    max-width: 31%; /* Set a max width to maintain three columns per row */
+}
+
+.why-us h5 {
+    font-size: 1.25rem;
+    color: #0067a2;
+    margin-top: 15px;
+    margin-bottom: 10px; /* Standard margin below the heading */
+    min-height: 3rem; /* Ensure consistent height */
+    display: flex;
+    align-items: center; /* Vertically align text */
+    justify-content: center;
+    text-align: center;
+}
+
+.why-us p {
+    color: #777;
+    margin-top: 0; /* Remove top margin */
+    padding: 0 10px; /* Add padding to avoid overflow */
+    text-align: center;
+}
+
+
+
+
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-img {
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Трохи затемнює зображення */
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card:hover .card-img {
+    opacity: 0.7;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+
