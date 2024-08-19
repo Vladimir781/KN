@@ -4,8 +4,10 @@ body {
 
 .intro h2 {
     font-size: 2.5rem;
-    color: #333;
+    color: #0067a2; /* Ярко-синий цвет */
 }
+
+
 
 .intro h3 {
     font-size: 1.75rem;
@@ -123,5 +125,80 @@ body {
 
     .card {
         margin: 10px 0; /* Увеличен отступ между карточками на мобильных устройствах */
+    }
+}
+
+.qualification-section img {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Добавляем плавный переход */
+}
+
+.qualification-section img:hover {
+    transform: scale(1.05); /* Увеличиваем изображение на 5% при наведении */
+    opacity: 0.8; /* Делаем изображение слегка прозрачным */
+}
+
+
+.contacts-section {
+    background-color: #f8f9fa; /* Світлий фон */
+    padding: 50px 0;
+}
+
+.contacts-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contacts-section h4 {
+    font-size: 1.25rem;
+    color: #0067a2;
+    margin-top: 20px;
+}
+
+.contacts-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contacts-section a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.contacts-section a:hover {
+    text-decoration: underline;
+}
+
+.map-container {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легка тінь для карти */
+}
+
+@media (max-width: 767.98px) {
+    .contacts-section {
+        padding: 30px 15px;
+    }
+
+    .contacts-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .contacts-section h4 {
+        font-size: 1.1rem;
+    }
+
+    .contacts-section p {
+        font-size: 0.9rem;
+    }
+
+    .map-container {
+        height: 300px; /* Зменшена висота карти на мобільних пристроях */
+    }
+	.qualification-section h4 {
+
+        margin-top: 10px; /* Додає зовнішній відступ зверху */
     }
 }
